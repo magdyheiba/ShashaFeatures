@@ -7,6 +7,7 @@ export interface CucumberWorldConstructorParams {
 }
 
 export interface ICustomWorld extends World {
+  pagesObj: any;
   debug: boolean;
   feature?: messages.Pickle;
   context?: BrowserContext;
@@ -24,6 +25,14 @@ export class CustomWorld extends World implements ICustomWorld {
   constructor(options: IWorldOptions) {
     super(options);
   }
+  pagesObj: any;
+  feature?: messages.Pickle | undefined;
+  context?: BrowserContext | undefined;
+  page?: Page | undefined;
+  testName?: string | undefined;
+  startTime?: Date | undefined;
+  server?: APIRequestContext | undefined;
+  playwrightOptions?: PlaywrightTestOptions | undefined;
   debug = false;
 }
 

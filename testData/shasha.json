@@ -1,0 +1,14 @@
+{
+  "Platform.baseURL": "https://shasha-platform-qa.web.app/create-campaign",
+  "AdminDashboard.baseURL": "https://shasha-admin-qa.web.app/advertisers/campaigns/pending-admin-approval",
+  "StoreOwnerDashboard.baseURL": "https://shasha-platform-qa.web.app/store-owner/incoming-campaigns#pending_campaigns",
+  "PhoneNumber": "2345678901",
+  "Code": "234567",
+  "ResaurantLocation": " 5900 State Bridge Rd, Johns Creek, suite 23",
+  "CardDetails": {
+    "CardNumber": "4111111111111111",
+    "MonthAndYear": "0625",
+    "CVC": "111",
+    "ZIP": "11123"
+  }
+}
