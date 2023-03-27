@@ -1,6 +1,6 @@
 import { LaunchOptions } from '@playwright/test';
 const browserOptions: LaunchOptions = {
-  headless: false,
+  headless: true,
 };
 
 export const config = {
