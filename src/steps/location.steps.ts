@@ -7,10 +7,10 @@ Given(
     return 'pending';
   },
 );
-When('From {string} he ticked the region checkbox.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// When('From {string} he ticked the region checkbox.', async function (string) {
+// Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 Then(
   'All checkboxes for the cites inside the region will be ticked.',
   async function () {
@@ -29,10 +29,10 @@ Then(
     return 'pending';
   },
 );
-Given('He clicks on {string}.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// Given('He clicks on {string}.', async function (string) {
+//   // Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 When('He clicks outside the filter.', async function () {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
@@ -53,10 +53,10 @@ Given('Advertiser is on the location selection step.', async function () {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
-When('He clicks on {string}.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// When('He clicks on {string}.', async function (string) {
+//   // Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 Then(
   'the regions should be arranged in descending order based on population density.',
   async function () {
@@ -64,10 +64,10 @@ Then(
     return 'pending';
   },
 );
-Given('He clicks on {string}.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// Given('He clicks on {string}.', async function (string) {
+//   // Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 When('He clicks on a region.', async function () {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
@@ -84,10 +84,10 @@ Given('Advertiser is in the location selection step.', async function () {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
-Given('He clicks on {string}.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// Given('He clicks on {string}.', async function (string) {
+//   // Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 When(
   'He clicks on the empty space on a region field. from the filter.',
   async function () {
@@ -136,10 +136,10 @@ Given(
     return 'pending';
   },
 );
-When('He clicks on {string}.', async function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
+// When('He clicks on {string}.', async function (string) {
+//   // Write code here that turns the phrase above into concrete actions
+//   return 'pending';
+// });
 Then(
   'A dropdown menu will appear representing the locations type.',
   async function () {

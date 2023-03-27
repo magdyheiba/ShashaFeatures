@@ -5,7 +5,10 @@ env:
   DEBUG: pw:api
 
 on:
-  push:
+    push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
 
 jobs:
   run:
