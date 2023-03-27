@@ -61,7 +61,7 @@ Before(async function (this: ICustomWorld, { pickle }: ITestCaseHookParameter) {
   this.context = await browser.newContext({
     acceptDownloads: true,
     recordVideo: process.env.PWVIDEO ? { dir: 'screenshots' } : undefined,
-    viewport: { width: 1920, height: 1080 },
+    // viewport: { width: 1920, height: 1080 },
   });
   this.server = await request.newContext({
     // All requests we send go to this API endpoint.
